@@ -8,7 +8,7 @@ with open('BestModel_RandomForest_CatBoost.pkl', 'rb') as f:
 with open('columns.pkl', 'rb') as f:
     training_columns = pickle.load(f)
 
-st.title('🚗 Prediksi Harga Mobil')
+st.title('🚗 Prediksi Harga Mobil (RandomForest)')
 st.write('Masukkan spesifikasi mobil untuk memprediksi harganya')
 
 st.divider()
